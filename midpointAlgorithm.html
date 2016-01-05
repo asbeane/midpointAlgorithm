@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Beane's Attempt At Canvas Midpoint Algorithms!</title>
+
+<body>
+ <h1>Andrew Beane Computer Graphics - Assignment 1 - Midpoint Algorithm</h1>
+ <p>Click and hold mouse to draw pixel by pixel free hand!</p>
+<p>Features: Each Button draws a token example of each object type. 
+  Extra Features:
+    For The Rectangle, Circle And Ellipse if you continue to click. A shading effect is implemented
+    so for each subsequent click it shades the object inward towards the center.
+    If you click on two points within the canvas it will draw a line using the midpoint algorithm. 
+    To Note some line appear not to draw successfully - but intermittently the same line in orientation
+    would work sometimes and not others.
+    Third feature when you are not clicking within the canvas and are simpling scrolling over it, the web app
+    (my program) will fill in pixel by pixel. If you scroll too fast it misses any - so the slower you move the more solid
+    of a line you get.
+    Line - Check, Circle - Check. Ellipse - Check.   Polyline Check.   Polygon - Check. Extra Features - Check. Interactive Feature -Check. To Note Please Scroll Down to see the Rectangle -- May not fit in full window for smaller Monitor. </p>
+ <button id="line" type = "button">MidPoint Line Button!</button>
+ <button id="circle" type = "button">MidPoint Circle Button!</button>
+ <button id="ellipse" type = "button">MidPoint Ellipse Button!</button>
+ <button id="Rectangle" type = "button">Rectangle Button!</button>
+ <button id="polyline" type = "button">Polyline Button!</button>
+ <button id="polygon" type = "button">Polygon Button!</button>
+ <canvas id="canvas" width="800" height="800" style ="border:1px solid #c3c3c3;">
+	 Epic Fail Messages (Canvas)!!!
+ </canvas>
+ <script src="midpointAlgorithm.js"></script>
+</body>
+</html>
